@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2016/01/13/03/02/united-states-map-1137085_960_720.jpg");
+    background-image: url("http://yourlegalmeans.com/wp-content/uploads/2012/10/R_F_7531-17.jpg");
     background-size: cover;
 }
 .title {
@@ -7,20 +7,26 @@ body {
     margin: 200px 0 0 0;
     font-size: 100px;
 }
-#a1 {
-    margin: 100px 0 0 0;
+
+    .question {
+font-size: 50px;
+text-align: center;
+
 }
-#a2{
-    margin: 200px 0 0 0;
+#firstrow {
+    font-size: 30px;
+    color: #cf444f;
 }
-#a3 {
-    margin: 300px 0 0 0;
-} 
-#a4 {
-    margin: 400px 0 0 0;
+
+#secondrow{
+    font-size: 30px;
+    color: white;
 }
-.question {
-    font-size: 40px;
+#thirdrow{
+    font-size: 30px;
+    color: #443f7c
+}
+#timer {
     text-align: center;
-    font-weight: bold;
+    font-size: 35px;
 }

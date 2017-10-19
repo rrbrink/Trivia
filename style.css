@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/13/03/02/united-states-map-1137085_960_720.jpg");
+    background-size: cover;
+}
+.title {
+    text-align: center;
+    margin: 200px 0 0 0;
+    font-size: 100px;
+}
+#a1 {
+    margin: 100px 0 0 0;
+}
+#a2{
+    margin: 200px 0 0 0;
+}
+#a3 {
+    margin: 300px 0 0 0;
+} 
+#a4 {
+    margin: 400px 0 0 0;
+}
+.question {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}

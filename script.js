@@ -34,7 +34,6 @@ $(document).ready(function() {
         if(!isTimerOn){
             isTimerOn = true;
             countdown();
-
         }
         function countdown() {
             document.getElementById("txt").value = counter;
@@ -60,10 +59,15 @@ $(document).ready(function() {
         console.log(question);
 
     }
-    
+    function renderQuestion(questions, spawnQuestion){
+        var charDiv = $("<div class='questions' data='" + questions + "'>");
+        var firstq = $("<div class='question'>").text(questions[0]);
+        console.log(renderQuestion);
+        charDiv.append(firstq);
+        $(spawnQuestion).append(charDiv);
 
    
-
+    };
       
   
     

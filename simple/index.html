@@ -14,13 +14,16 @@
     <div class="title">
             <h1 class="title">Strange Law's in USA Trivia</h1>
     </div>
+    
     <div class="container">
      <div class="jumbotron" style="height: 900px;">
+         <center><img hidden  id="gif" src="https://media.giphy.com/media/xUA7b68hKy839wiVJC/giphy.gif" ></center>
          <!--div for the timer-->
+         <div id="boxText">
         <div class="row">
              <div class="col-md-12">
-             <p id="timer">:30</p>
-             <button type="submit" class="submit" id="start"></button>
+             <p id="timer">30</p>
+             
          </div>
          </div>
          <!--first question and click boxes-->
@@ -32,13 +35,13 @@
          <!--3 clickboxes with answers-->
          <div id="firstrow" class="row">
              <div class="col-md-4">
-                    <label  class="radio-inline"><input type="radio" name="optradio">Red Wine</label>
+                    <label class="radio-inline"><input id="answer" type="radio" name="group1"value="wrong">Red Wine</label>
              </div>
              <div class="col-md-4">
-                    <label class="radio-inline"><input type="radio" name="optradio">Corn Flakes</label>
+                    <label class="radio-inline"><input id="answer" type="radio" name="group1" value="right">Corn Flakes</label>
                 </div>
                 <div class="col-md-4">
-                        <label class="radio-inline"><input type="radio" name="optradio">Gudah Cheese</label>
+                        <label class="radio-inline"><input id="answer" type="radio" name="group1" value="wrong">Gudah Cheese</label>
                     </div>
          </div>
          <div  class="row">
@@ -47,14 +50,14 @@
                 </div>
             </div>
          <div id="secondrow" class="row">
-                <div class="col-md-4">
-                       <label class="radio-inline"><input type="radio" name="optradio2">Talking to your governor</label>
+                <div id="answer" class="col-md-4">
+                       <label class="radio-inline"><input id="answer" type="radio" name="group2" value="wrong">Talking to your governor</label>
                 </div>
                 <div class="col-md-4">
-                       <label class="radio-inline"><input type="radio" name="optradio2">Passing Gas</label>
+                       <label class="radio-inline"><input id="answer" type="radio" name="group2"value="right">Passing Gas</label>
                    </div>
                    <div class="col-md-4">
-                           <label class="radio-inline"><input type="radio" name="optradio2">Riding a bus during pregnacy</label>
+                           <label class="radio-inline"><input id="answer" type="radio" name="group2" value="wrong">Riding a bus during pregnacy</label>
                        </div>
             </div>
             <div class="row">
@@ -64,17 +67,18 @@
                 </div>
              <div id="thirdrow" class="row">
                     <div class="col-md-4">
-                           <label class="radio-inline"><input type="radio" name="optradio3">An undressed woman</label>
+                           <label class="radio-inline"><input id="answer" type="radio" name="group3"value="right">An undressed woman</label>
                     </div>
                     <div class="col-md-4">
-                           <label class="radio-inline"><input type="radio" name="optradio3">An undressed man</label>
+                           <label class="radio-inline"><input id="answer" type="radio" name="group3" value="wrong">An undressed man</label>
                        </div>
                        <div class="col-md-4">
-                               <label class="radio-inline"><input type="radio" name="optradio3">An undressed child</label>
+                               <label  class="radio-inline"><input id="answer" type="radio" name="group3" value="wrong">An undressed child</label>
                            </div>
                 </div>
+                <button type="button" class="btn btn-primary" class="submit" class="btn btn-primary" onclick="return handleClick();" type="submit">Submit</button>
          
-
+            </div>
 
     </div>
       </div>
